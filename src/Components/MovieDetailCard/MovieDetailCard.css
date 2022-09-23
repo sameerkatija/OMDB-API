@@ -1,0 +1,34 @@
+.movie-detail-card {
+  margin: 0;
+  padding: 2em;
+}
+.main-body {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+.left-div {
+  display: flex;
+  flex-direction: column;
+}
+.ratings {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 18px;
+  padding: 5px;
+}
+.detail-div {
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: medium;
+  font-weight: 300;
+  padding: 0.5em;
+  width: 60%;
+}
+.span-underline {
+  text-decoration: underline;
+  font-weight: 900;
+}
